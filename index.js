@@ -12,6 +12,9 @@ app.set('views', __dirname + '/public/views')
 app.get('/', function(req, res){
     res.render('index', {});
 });
+app.get('/play', function(req, res){
+    res.render('play', {});
+});
 var server = http.createServer(app).listen(3000, '127.0.0.1', function(){
   console.info('i am listing ...');
 });
