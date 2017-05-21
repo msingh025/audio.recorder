@@ -1,0 +1,21 @@
+{
+  "name": "audio.recorder",
+  "version": "1.0.0",
+  "scripts": {
+     },
+  "license": "NONE",
+  "dependencies": {
+    "express": "4.15.2",
+    "binaryjs": "0.2.1",
+    "wav": "1.0.1",
+    "path": "0.12.7",
+    "ejs": "2.5.6"
+  },
+  "devDependencies": {
+    "express": "4.15.2",
+    "binaryjs": "0.2.2",
+    "wav": "1.0.1",
+    "path": "0.12.7",
+    "ejs": "2.5.6"
+  }
+}
